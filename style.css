@@ -4,15 +4,15 @@
 }
 
 body {
-	background:transparent url(images/bg.png) repeat scroll 0 0;
+	background:black;
 	font-family:Calibri,arial;
 	color:#D4D7D9;
 }
 
 div#img-box{
 	margin:0 auto;
-	margin-top:50px;
-	width:200px;
+	margin-top:25px;
+	width:400px;
 }
 
 
@@ -37,8 +37,8 @@ div#logo h1 {
 	font-size:4.8em;
 	color:#D4D7D9;
 	text-align:center;
-	font-family:Calibri,serif;
-	text-shadow:10px 5px 50px #9938E0;
+	font-family:Calibri,serif,arial;
+	
 }
 
 div#logo h3{
@@ -85,18 +85,18 @@ h4 a:hover{
 }
 
 div#about{
-	margin-top:150px;
+	
 	text-align:center;
 	color:#D4D7D9;
-	font-size:100px;
+	font-size:2.8em;
 	font-family:Calibri,Trebuchet MS,arial;
 	
 }
 
 h5{
 	color:#D4D7D9;
-	line-height:23px;
-	font-size:0.9em;
+	line-height:22px;
+	font-size:1.0em;
 	padding-left:30px;
 }
 
