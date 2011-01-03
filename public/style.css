@@ -5,13 +5,14 @@
 
 body {
     background:black;
-    font-family:Calibri,arial;
+    font-family:Helvetica Neue,Arial,sans-serif;
     color:#D4D7D9;
 }
 
 div#img-box{
     margin:0 auto;
     margin-top:10px;
+    margin-bottom:-40px;
     width:400px;
 }
 
@@ -37,7 +38,8 @@ div#logo h1 {
     font-size:4.8em;
     color:#D4D7D9;
     text-align:center;
-    font-family:Calibri,serif,arial;
+    font-style: normal;
+    font-weight: normal;
 
 }
 
@@ -89,14 +91,12 @@ div#about{
     text-align:center;
     color:#D4D7D9;
     font-size:2.8em;
-    font-family:Calibri,Trebuchet MS,arial;
-
 }
 
 h5{
     color:#D4D7D9;
     line-height:22px;
-    font-size:1.0em;
+    font-size:0.9em;
     padding-left:30px;
 }
 
