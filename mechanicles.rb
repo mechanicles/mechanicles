@@ -5,7 +5,7 @@ set :app_file, __FILE__
 set :root, File.dirname( __FILE__ )
 set :public, File.dirname( __FILE__ ) + '/public'
 
-class Mechanicles
+class Mechanicles < Sinatra::Base
 
   @@year = Time.now.year
 
