@@ -1,4 +1,3 @@
-require	'rubygems'
 require 'sinatra'
 
 set :app_file, __FILE__

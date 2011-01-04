@@ -1,3 +1,3 @@
-require './mechanicles'
+require 'mechanicles'
 
-run Sinatra::Mechanicles
+run Sinatra::Application
