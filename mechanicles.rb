@@ -1,10 +1,14 @@
+#APP_ROOT = File.dirname(__FILE__)
+
 require 'sinatra'
 
-set :app_file, __FILE__
-set :root, File.dirname( __FILE__ )
-set :public, File.dirname( __FILE__ ) + '/public'
 
-class Mechanicles < Sinatra::Base
+
+class Mechanicles
+  set :app_file, __FILE__
+  set :root, File.dirname( __FILE__ )
+  set :public, File.dirname( __FILE__ ) + '/public'
+		
 
   @@year = Time.now.year
 
