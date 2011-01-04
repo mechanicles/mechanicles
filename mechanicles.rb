@@ -1,8 +1,4 @@
-#APP_ROOT = File.dirname(__FILE__)
-
 require 'sinatra'
-
-
 
 class Mechanicles
   set :app_file, __FILE__
