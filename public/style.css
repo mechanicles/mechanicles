@@ -1,12 +1,24 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url('/fonts/29D26A_0_0.eot') format('eot');
+  src: url('/fonts/29D26A_0_0.woff') format('woff');
+  src: url('/fonts/29D26A_0_0.ttf') format('truetype');
+}
+
 * {
     margin: 0px;
     padding:0px;
 }
 
 body {
-    background:black;
-    font-family:Helvetica Neue,Arial,sans-serif;
-    color:#D4D7D9;
+    background: black;
+    font-family: "MyCustomFont", Helvetica Neue, Arial, sans-serif;
+    color: #D4D7D9;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 div#img-box{
@@ -16,22 +28,18 @@ div#img-box{
     width:400px;
 }
 
-
 div#img-box a {
     color:#080110;
-
 }
+
 div#img-box a:hover {
     color:#444444;
-
 }
 
 div#logo {
-
     width:600px;
     margin:0 auto;
     margin-top:10px;
-
 }
 
 div#logo h1 {
@@ -40,7 +48,7 @@ div#logo h1 {
     text-align:center;
     font-style: normal;
     font-weight: normal;
-
+    font-family: Georgia, Helvetica Neue, Arial, sans-serif
 }
 
 div#logo h3{
@@ -59,12 +67,12 @@ div#contact{
 }
 
 fieldset{
-    margin:0 auto;
-    width: 425px;
-    height: 300px;
-    border:1px solid #444444;
-    margin-top:30px;
-    padding: 2px;
+  margin: 0 auto;
+  width: 460px;
+  height: 300px;
+  border: 2px solid #444444;
+  margin-top: 30px;
+  padding: 5px;
 }
 
 legend{
@@ -76,6 +84,7 @@ h4 {
     text-align:center;
     margin-top:0px
 }
+
 h4 a {
     color:#414A4C;
     text-decoration:none;
@@ -103,9 +112,7 @@ h5{
 div#footer{
     margin: 15px auto 0 auto;
     text-align:center;
-    font-size:0.8em;
     width:100%;
     color:#414A4C
 }
 
-	
