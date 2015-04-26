@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "freight-text-pro";
   src: url('/fonts/29D26A_0_0.eot') format('eot');
   src: url('/fonts/29D26A_0_0.woff') format('woff');
   src: url('/fonts/29D26A_0_0.ttf') format('truetype');
@@ -12,7 +12,7 @@
 
 body {
     background: black;
-    font-family: "MyCustomFont", Helvetica Neue, Arial, sans-serif;
+    font-family: "freight-text-pro", Helvetica Neue, Arial, sans-serif;
     color: #D4D7D9;
     font-size: 18px;
 }
