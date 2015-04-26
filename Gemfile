@@ -4,4 +4,6 @@ ruby '2.2.2'
 
 gem 'sinatra'
 
-gem 'thin'
+group :developement, :production do
+  gem 'thin'
+end
