@@ -9,15 +9,18 @@
 
   </head>
   <body>
-    <div style ="width:400px; margin:0 auto;margin-top:60px;">
-      <img src="/images/COFFEE.GIF" title="" style="background:white"/>
+    <div id= "img-box">
+      <img src="/images/COFFEE.GIF" style="background:white" />
     </div>
+
     <div id="about">
       I  <span style="color:#00CC00;">code</span> with <span style="color:#6F4E37">coffee</span>
       <br />
       I make <span style="color:#B06">apps</span> only through <span style="color:#00CC00;">Vim</span>
     </div>
+
     <h4><a href="/info"> &#8617;</a></h4>
+
     <%= erb :footer, { current_year: @current_year } %>
   </body>
 </html>
