@@ -18,15 +18,15 @@
 
     <div id ="logo">
       <h1><span style = "color:red;">M</span>echanicles</h1>
+    </div>
     <div id ="contact">
       <h4 style = "color:#D4D7D9;">Pune, India</h4>
       <h3 style = "color:#D4D7D9;">santosh dot wadghule at gmail dot com</h3>
     </div>
+
     <br /><h4><a href = "/info">Enter</a></h4>
 
-    <div id="footer">
-      © <%= @year %> Santosh Wadghule. Powered by Sinatra and Heroku
-    </div>
+    <%= erb :footer, { current_year: @current_year } %>
   </body>
 
 </html>

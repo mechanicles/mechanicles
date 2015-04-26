@@ -17,18 +17,18 @@
         <a href="http://twitter.com/mechanicles" TARGET="_blank">Follow me on twitter</a>
       </h4>
     </div>
+
     <fieldset>
       <legend><b>Profile!</b></legend>
       <h5>A dude who lives in <span style="color:red"> Pune</span>. He has done M.Sc. Computer Science from the University of Pune.</h5><br />
-      <h5><b>Passions</b>: Ruby, Rails, Python, JavaScript & Vim &hearts;.</h5><br />
+      <h5><b>Passions</b>: Ruby, Rails, Python, JavaScript & Vim. </h5><br />
       <h5><b>Acivities</b>: Internet & Food Photography.</h5><br />
       <h5><b>Projects</b>: <a href="http://github.com/mechanicles" style="color:red">http://github.com/mechanicles</a></h5><br />
       <h5><b>Music</b>: Die-hard fan of A R Rahman.</h5><br />
       <h5 style="text-align:right;margin-right:6px"><b><i>- Don't live to geek, geek to live </i></b></h5>
     </fieldset>
     <h4><a href="/"> &#8617;</a></h4>
-    <div id="footer">
-      © <%= @year %> Santosh Wadghule. Powered by Sinatra and Heroku
-    </div>
+
+    <%= erb :footer, { current_year: @current_year } %>
   </body>
 </html>

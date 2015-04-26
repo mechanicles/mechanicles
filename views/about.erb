@@ -18,8 +18,6 @@
       I make <span style="color:#B06">apps</span> only through <span style="color:#00CC00;">Vim</span>
     </div>
     <h4><a href="/info"> &#8617;</a></h4>
-    <div id="footer">
-      © <%= @year %> Santosh Wadghule. Powered by Sinatra and Heroku
-    </div>
+    <%= erb :footer, { current_year: @current_year } %>
   </body>
 </html>

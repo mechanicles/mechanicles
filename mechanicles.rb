@@ -2,24 +2,27 @@ require 'sinatra/base'
 
 class Mechanicles < Sinatra::Base
   set :app_file, __FILE__
-  set :root, File.dirname( __FILE__ )
-  set :public, File.dirname( __FILE__ ) + '/public'
+  set :static_cache_control, [:public, :max_age => 300]
 
-  @@year = Time.now.year
+  before do
+    @current_year = current_year
+  end
 
   get '/' do
-    @year = @@year
     erb :index
   end
 
   get '/info' do
-    @year = @@year
     erb :info
   end
 
   get '/about' do
-    @year = @@year
     erb :about
   end
 
+  private
+
+  def current_year
+    Time.now.year
+  end
 end
