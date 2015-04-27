@@ -84,12 +84,16 @@ h4 {
     margin-top:0px
 }
 
-h4 a {
+h4 a, a.awesome {
     color:#414A4C;
     text-decoration:none;
 }
 
-h4 a:hover{
+a.awesome.watch {
+  color: #075694;
+}
+
+h4 a:hover, a:hover.awesome {
     color:red;
     text-shadow:0px 0px 10px #D8AFF3;
 }
@@ -115,3 +119,14 @@ div#footer{
     color:#414A4C
 }
 
+.love-color {
+  color: #B06;
+}
+
+.code-color {
+  color: #00CC00;
+}
+
+.coffee-color {
+  color: #6F4E37
+}
