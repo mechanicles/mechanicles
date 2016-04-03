@@ -1,11 +1,11 @@
-require 'sinatra/base'
+require 'tilt/erb' # Removes thread safety warning.
 
 class Mechanicles < Sinatra::Base
-  set :app_file, __FILE__
-  set :static_cache_control, [:public, :max_age => 300]
+  set :root, File.dirname(__FILE__)
 
   before do
     @current_year = current_year
+    cache_control :public, :must_revalidate, max_age: 1800
   end
 
   get '/' do
