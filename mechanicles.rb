@@ -7,7 +7,7 @@ class Mechanicles < Sinatra::Base
   before do
     @current_year     = current_year
     @total_experience = current_year - profession_starting_year
-    cache_control :public, :must_revalidate, max_age: 1800
+    cache_control :public, :must_revalidate, max_age: 60 * 60 * 24 * 365
   end
 
   get '/' do
