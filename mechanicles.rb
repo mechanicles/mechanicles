@@ -5,8 +5,8 @@ class Mechanicles < Sinatra::Base
   set :root, File.dirname(__FILE__)
 
   before do
-    @current_year = current_year
-    @total_experience = current_year - carrier_starting_year
+    @current_year     = current_year
+    @total_experience = current_year - profession_starting_year
     cache_control :public, :must_revalidate, max_age: 1800
   end
 
@@ -28,7 +28,7 @@ class Mechanicles < Sinatra::Base
     Time.now.year
   end
 
-  def carrier_starting_year
+  def profession_starting_year
     Date.parse('9/8/2010').year
   end
 
