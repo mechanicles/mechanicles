@@ -6,6 +6,8 @@ gem 'sinatra'
 
 gem 'humanize'
 
+gem 'rack-contrib'
+
 group :developement, :production do
   gem 'puma'
 end

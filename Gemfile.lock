@@ -5,6 +5,8 @@ GEM
     mustermann (1.0.2)
     puma (3.11.3)
     rack (2.0.4)
+    rack-contrib (2.0.1)
+      rack (~> 2.0)
     rack-protection (2.0.1)
       rack
     sinatra (2.0.1)
@@ -20,6 +22,7 @@ PLATFORMS
 DEPENDENCIES
   humanize
   puma
+  rack-contrib
   sinatra
 
 RUBY VERSION
