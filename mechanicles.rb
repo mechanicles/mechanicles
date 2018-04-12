@@ -1,5 +1,3 @@
-require "tilt/erb" # Removes thread safety warning.
-
 class Mechanicles < Sinatra::Base
 
   set :root, File.dirname(__FILE__)
