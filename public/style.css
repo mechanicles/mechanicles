@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: 'Nunito', sans-serif;
+  color: #D4D7D9;
+  font-size: 18px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0px;
+  color: #444444;
+}
+
+h4 a, a.awesome {
+  color: red;
+}
+
+h4 a:hover, a:hover.awesome {
+  color: red;
+  text-shadow: 0px 0px 10px #D8AFF3;
+}
+
+h5 {
+  color: #D4D7D9;
+  line-height: 22px;
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h5 a:hover {
+  color: red;
+  text-shadow: 0px 0px 10px #D8AFF3;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 40%;
+  border: 2px solid #444444;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+legend{
+  color: red;
+}
+
+fieldset h5.life-motto {
+  text-align: right;
+  margin-right: 6px;
+
+}
+
+a.awesome.watch {
+  color: #075694;
+}
+
+a.mechanicles-link {
+  color: red;
+}
+
+div#img-box{
+  margin-top: 40px;
+  padding: 10px;
+}
+
+div#img-box img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #D4D7D9;
+}
+
+div#logo {
+  margin-top: 10px;
+}
+
+div#logo h1 {
+  font-size: 5em;
+  color: #D4D7D9;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Aladin', cursive;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#contact {
+  margin-top: 10px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div#contact h4 {
+  color: #D4D7D9;
+}
+
+div#about {
+  text-align: center;
+  color: #D4D7D9;
+  font-size: 2.8em;
+}
+
+div#footer {
+  margin: 15px auto 0 auto;
+  text-align: center;
+  color: #414A4C
+}
+
+span.red-color {
+  color: red;
+}
+
+.love-color {
+  color: #ff0084;
+}
+
+.code-color {
+  color: #00CC00;
+}
+
+.coffee-color {
+  color: #854442
+}

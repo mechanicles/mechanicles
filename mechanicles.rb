@@ -19,6 +19,10 @@ class Mechanicles < Sinatra::Base
     erb :about
   end
 
+  not_found do
+    '404: Not found!'
+  end
+
   private
 
   def current_year
