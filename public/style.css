@@ -21,6 +21,10 @@ h4 {
   color: #444444;
 }
 
+h1 a {
+  color: #D4D7D9;
+}
+
 h4 a, a.awesome {
   color: red;
 }
@@ -36,6 +40,7 @@ h5 {
   font-size: 0.9em;
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: normal;
 }
 
 h5 a:hover {
@@ -45,20 +50,23 @@ h5 a:hover {
 
 fieldset {
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
   border: 2px solid #444444;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 5px;
 }
 
 legend{
-  color: red;
+  color: limegreen;
+}
+
+fieldset h5 {
+  font-size: 18px;
 }
 
 fieldset h5.life-motto {
   text-align: right;
   margin-right: 6px;
-
 }
 
 a.awesome.watch {
@@ -70,7 +78,7 @@ a.mechanicles-link {
 }
 
 div#img-box{
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -134,4 +142,29 @@ span.red-color {
 
 .coffee-color {
   color: #854442
+}
+
+.highlight-yellow {
+  color: #f1c40f;
+}
+
+.highlight {
+  color: #f1c40f;
+  text-shadow: 0px 0px 25px #D8AFF3;
+  /*background-color: #f1c40f;*/
+  /*color: #333*/
+}
+
+table, th, td {
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th {
+  width: 2%
+}
+
+th, td {
+  padding: 0px 10px 10px 10px;
+  text-align: left;
 }

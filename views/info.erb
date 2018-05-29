@@ -8,27 +8,92 @@
     <%= erb :logo %>
 
     <h4>
-      <a href="/about">Santosh Wadghule</a> |
-      <a href="https://github.com/mechanicles" target="_blank">GitHub</a> |
-      <a href="http://blog.mechanicles.com/" target="_blank">My blog</a> |
-      <a href="https://www.linkedin.com/in/santosh-wadghule/" target="_blank">LinkedIn</a> |
+      <a href="/about">Santosh Wadghule</a> &#x2758;
+      <a href="https://github.com/mechanicles" target="_blank">GitHub</a> &#x2758;
+      <a href="http://blog.mechanicles.com/" target="_blank">My blog</a> &#x2758;
+      <a href="https://www.linkedin.com/in/santosh-wadghule/" target="_blank">LinkedIn</a> &#x2758;
       <a href="http://twitter.com/mechanicles" target="_blank">Follow me on twitter</a>
     </h4>
 
     <fieldset>
-      <legend><b>Profile!</b></legend>
+      <legend>&#x26A1;<b>Profile!</b> &#x26A1;</legend>
+
       <h5>A dude who lives in Pune. He is a Rails freelancer and has almost <%= @total_experience.humanize %> years of professional programming experience. Loves Ruby, JavaScript, Open Source Software, and Vim. </h5><br />
-      <h5><b>Languages</b>: Ruby, JavaScript, CoffeeScript </h5><br />
-      <h5><b>Frameworks</b>: Ruby on Rails, Sinatra, Padrino, React/Angular, Express (Node.js) </h5><br />
-      <h5><b>Activities</b>: Coding, Reading, and Food photography</h5><br />
-      <h5><b>Infrastructure</b>: Heroku, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.</h5><br />
-      <h5><b>Other skills:</b> Rubygems development, Microservices, REST API development</h5><br />
+
+      <table style="width:100%">
+        <tr>
+          <th class="highlight-yellow">
+            Languages:
+          </th>
+          <td>
+            Ruby, JavaScript, CoffeeScript
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+            Frameworks:
+          </th>
+          <td>
+            Ruby on Rails, Sinatra, Padrino, React/Angular, Express (Node.js)
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+            Infrastructure:
+          </th>
+          <td>
+            Heroku, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+            Other skills:
+          </th>
+          <td>
+            Rubygems development, Microservices, REST API development
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+           Rails contributions:
+          </th>
+          <td>
+            <a class="mechanicles-link" href="http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits" target="_blank">http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits</a>
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+           Talks:
+          </th>
+          <td>
+            <a class="mechanicles-link" href="https://goo.gl/e40Tk3" target="_blank">Aila!.. Caching in Rails</a>,
+            <a class="mechanicles-link" href="https://goo.gl/1NFCsS" target="_blank">Rails Request & Middlewares</a>,
+            <a class="mechanicles-link" href="https://www.slideshare.net/mechanicles/es6-features-rails" target="_blank">ES6: Features + Rails</a>
+          </td>
+        </tr>
+
+        <tr>
+          <th class="highlight-yellow">
+            Activities:
+          </th>
+          <td>
+            Coding, Reading, Food photography, and Fun 😀
+          </td>
+        </tr>
+
+      </table>
+
       <h5 class="life-motto"><b><i>- Don't live to geek, geek to live </i></b></h5>
     </fieldset>
 
     <br />
 
-    <h4><a href="/">&#8617;</a></h4>
+    <h4><a href="/">&larr;</a></h4>
 
     <%= erb :footer, { current_year: @current_year } %>
   </body>
