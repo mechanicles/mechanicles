@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <%= erb :head %>
   </head>
   <body>
+    <div class="divider"></div>
     <%= erb :logo %>
 
     <h4>
@@ -18,11 +18,16 @@
     <fieldset>
       <legend>&#x26A1;<b>Profile!</b> &#x26A1;</legend>
 
-      <h5>A dude who lives in Pune. He is a Rails freelancer and has almost <%= @total_experience.humanize %> years of professional programming experience. Loves Ruby, JavaScript, Open Source Software, and Vim. </h5><br />
+      <div id="profile-intro">
+        A dude who lives in Pune. He is a Ruby on Rails consultant and has almost <%= @total_experience.humanize %>
+        years of professional programming experience. Loves Ruby, JavaScript, Open Source Software, and Vim.
+      </div>
+
+      <div class="divider"></div>
 
       <table style="width:100%">
         <tr>
-          <th class="highlight-yellow">
+          <th>
             Languages:
           </th>
           <td>
@@ -31,7 +36,7 @@
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
+          <th>
             Frameworks:
           </th>
           <td>
@@ -40,16 +45,16 @@
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
+          <th>
             Infrastructure:
           </th>
           <td>
-            Heroku, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.
+            Docker, Heroku, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.
           </td>
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
+          <th>
             Other skills:
           </th>
           <td>
@@ -58,8 +63,8 @@
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
-           Rails contributions:
+          <th>
+            Rails contributions:
           </th>
           <td>
             <a class="mechanicles-link" href="http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits" target="_blank">http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits</a>
@@ -67,8 +72,8 @@
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
-           Talks:
+          <th>
+            Talks:
           </th>
           <td>
             <a class="mechanicles-link" href="https://goo.gl/e40Tk3" target="_blank">Aila!.. Caching in Rails</a>,
@@ -78,20 +83,18 @@
         </tr>
 
         <tr>
-          <th class="highlight-yellow">
+          <th>
             Activities:
           </th>
           <td>
             Coding, Reading, Food photography, and Fun 😀
           </td>
         </tr>
-
       </table>
-
-      <h5 class="life-motto"><b><i>- Don't live to geek, geek to live </i></b></h5>
+      <div class="divider"></div>
     </fieldset>
 
-    <br />
+    <div class="divider"></div>
 
     <h4><a href="/">&larr;</a></h4>
 

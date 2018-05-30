@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <%= erb :head %>
   </head>
   <body>
     <%= erb :profile_image %>
+    <div class="divider"></div>
+
     <%= erb :logo %>
+
+    <div class="highlight">
+      Hire me for Ruby on Rails specific problems, architecture, application design,
+      optimizations, performance,<br />code reviews, team mentoring, and rescue missions.
+    </div>
+
+    <div class="divider"></div>
 
     <div id="contact">
       <h4>Pune, India</h4>
       <h4>santosh.wadghule@gmail.com</h4>
-      </br>
-      <i class="highlight">Hire me for Ruby on Rails specific problems, architecture,
-        application design, optimizations, performance,<br /> code reviews, team mentoring, and rescue missions.</i>
     </div>
 
-    <br/><h4><a href="/info">More About Me &rarr;</a></h4>
+    <div class="divider"></div>
+
+    <h4><a href="/info">More About Me &rarr;</a></h4>
 
     <%= erb :footer, { current_year: @current_year } %>
   </body>

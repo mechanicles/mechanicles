@@ -34,20 +34,6 @@ h4 a:hover, a:hover.awesome {
   text-shadow: 0px 0px 10px #D8AFF3;
 }
 
-h5 {
-  color: #D4D7D9;
-  line-height: 22px;
-  font-size: 0.9em;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: normal;
-}
-
-h5 a:hover {
-  color: red;
-  text-shadow: 0px 0px 10px #D8AFF3;
-}
-
 fieldset {
   margin: 0 auto;
   width: 80%;
@@ -60,17 +46,9 @@ legend{
   color: limegreen;
 }
 
-fieldset h5 {
+div#profile-intro {
   font-size: 18px;
-}
-
-fieldset h5.life-motto {
-  text-align: right;
-  margin-right: 6px;
-}
-
-a.awesome.watch {
-  color: #075694;
+  padding: 0px 10px 10px 10px;
 }
 
 a.mechanicles-link {
@@ -79,7 +57,6 @@ a.mechanicles-link {
 
 div#img-box{
   margin-top: 20px;
-  padding: 10px;
 }
 
 div#img-box img{
@@ -87,10 +64,6 @@ div#img-box img{
   margin-right: auto;
   display: block;
   background: #D4D7D9;
-}
-
-div#logo {
-  margin-top: 10px;
 }
 
 div#logo h1 {
@@ -105,13 +78,6 @@ div#logo h1 {
   margin-right: auto;
 }
 
-div#contact {
-  margin-top: 10px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 div#contact h4 {
   color: #D4D7D9;
 }
@@ -119,13 +85,17 @@ div#contact h4 {
 div#about {
   text-align: center;
   color: #D4D7D9;
-  font-size: 2.8em;
+  font-size: 2.9em;
 }
 
 div#footer {
   margin: 15px auto 0 auto;
   text-align: center;
   color: #414A4C
+}
+
+div.divider{
+  margin-top: 15px;
 }
 
 span.red-color {
@@ -141,18 +111,17 @@ span.red-color {
 }
 
 .coffee-color {
-  color: #854442
+  color: #854442;
 }
 
-.highlight-yellow {
-  color: #f1c40f;
+.rails-color {
+  color: #cc0000;
 }
 
 .highlight {
   color: #f1c40f;
   text-shadow: 0px 0px 25px #D8AFF3;
-  /*background-color: #f1c40f;*/
-  /*color: #333*/
+  text-align: center;
 }
 
 table, th, td {
@@ -161,7 +130,7 @@ table, th, td {
 }
 
 th {
-  width: 2%
+  width: 18%;
 }
 
 th, td {
