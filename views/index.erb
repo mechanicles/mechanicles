@@ -23,8 +23,32 @@
 
     <div class="divider"></div>
 
-    <h4><a href="/info">Who am I? I am... &rarr;</a></h4>
+    <h4><a href="/info" id="about-me">Hello there 👋</a></h4>
 
     <%= erb :footer, { current_year: @current_year } %>
+
+    <script charset="utf-8">
+      var i = 0;
+      var txt = 'Want to know more about me, then go here';
+      var speed = 50;
+      var element = document.getElementById("about-me")
+
+      function typeWriter() {
+        if (i < txt.length) {
+          element.innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        } else {
+          element.innerHTML += ' &rarr;';
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', function(){
+        setTimeout(function(){
+          element.innerHTML = '';
+          typeWriter();
+        }, 2500);
+      });
+    </script>
   </body>
 </html>
