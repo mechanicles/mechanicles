@@ -1,5 +1,6 @@
-class Mechanicles < Sinatra::Base
+# frozen_string_literal: true
 
+class Mechanicles < Sinatra::Base
   set :root, File.dirname(__FILE__)
 
   before do
@@ -8,11 +9,11 @@ class Mechanicles < Sinatra::Base
   end
 
   get '/' do
-    erb :index
+    erb :home
   end
 
-  get '/info' do
-    erb :info
+  get '/profile' do
+    erb :profile
   end
 
   get '/about' do
@@ -32,5 +33,4 @@ class Mechanicles < Sinatra::Base
   def profession_starting_year
     Date.parse('9/8/2010').year
   end
-
 end

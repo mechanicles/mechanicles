@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= erb :head %>
+  </head>
+  <body>
+    <%= erb :profile_image %>
+
+    <div class="divider"></div>
+
+    <%= erb :logo %>
+
+    <div id="contact">
+      <h4>
+        A Remote Ruby on Rails Consultant
+      </h4>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="highlight">
+      Hire me for Ruby on Rails specific problems, architecture, application design,
+      optimizations, <br />performance,code reviews, team mentoring, and rescue missions.
+    </div>
+
+    <div class="divider"></div>
+
+    <h4><a href="/profile" id="about-me">My profile &rarr;</a></h4>
+
+    <%= erb :footer, { current_year: @current_year } %>
+  </body>
+</html>
