@@ -1,1 +1,1 @@
-Start server: bundle exec rackup -p 3000
+Start server: foreman start
