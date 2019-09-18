@@ -8,7 +8,6 @@ body {
   background: black;
   font-family: 'Nunito', sans-serif;
   color: #D4D7D9;
-  font-size: 18px;
   margin-top: 3%;
   margin-bottom: 1%;
 }
@@ -38,7 +37,6 @@ h4 a:hover, a:hover.awesome {
 
 fieldset {
   margin: 0 auto;
-  width: 1000px;
   border: 2px solid #444444;
   margin-top: 15px;
   padding: 1em;
@@ -47,13 +45,8 @@ fieldset {
   border-radius:8px;
 }
 
-legend{
-  color: limegreen;
-  padding: 3px 6px;
-}
 
 div#profile-intro {
-  font-size: 18px;
   padding: 0px 10px 10px 10px;
 }
 
@@ -91,7 +84,6 @@ div#contact h4 {
 div#about {
   text-align: center;
   color: #D4D7D9;
-  font-size: 2.9em;
 }
 
 div#footer {
@@ -131,11 +123,6 @@ span.red-color {
 
 table, th, td {
   border-collapse: collapse;
-  font-size: 18px;
-}
-
-th {
-  width: 19%;
 }
 
 th, td {
