@@ -1,0 +1,34 @@
+body {
+  background: black;
+  font-family: 'Nunito', sans-serif;
+  color: #D4D7D9;
+}
+
+.cover-container {
+  max-width: 60em;
+}
+
+table th {
+  font-weight: inherit;
+}
+
+table td a {
+  color: red;
+}
+
+table td a:hover {
+  color: red;
+}
+
+legend {
+  font-size: inherit;
+}
+
+.masthead-brand a {
+  color: #D4D7D9 ;
+  text-decoration: none;
+}
+
+.highlight {
+  color: #ffbb33;
+}

@@ -3,118 +3,75 @@
   <head>
     <%= erb :head %>
   </head>
-  <body>
-    <div class="divider"></div>
-    <%= erb :logo %>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <%= erb :header %>
 
-    <h4>
-      <a href="/about">Santosh Wadghule</a> &#x2758;
-      <a href="https://github.com/mechanicles" target="_blank">GitHub</a> &#x2758;
-      <a href="http://blog.mechanicles.com/" target="_blank">My blog</a> &#x2758;
-      <a href="https://www.linkedin.com/in/santosh-wadghule/" target="_blank">LinkedIn</a> &#x2758;
-      <a href="http://twitter.com/mechanicles" target="_blank">Twitter</a> &#x2758;
-      <a href="mailto:santosh.wadghule@gmail.com"> Contact me </a>
-    </h4>
+      <main class="lead">
+        <p>
+          Hire me for Ruby on Rails specific problems, architecture, application design,
+          optimizations, code reviews, performance, team mentoring, and rescue missions.
+        </p>
 
-    <fieldset>
-      <legend><b>Profile</b></legend>
+        <fieldset class="border rounded p-2 text-left">
+          <legend class="w-auto">What I am all about...</legend>
+          <table class="table table-borderless table-sm table-responsive" style="color:inherit;">
+            <tr>
+              <th>Languages:</th>
+              <td>Ruby, JavaScript, CoffeeScript</td>
+            </tr>
 
-      <div id="profile-intro">
-        I am a full-stack Ruby on Rails developer and have almost <%= @total_experience.humanize %>
-        years of professional experience in a wide variety of business areas.
-        I love Ruby, JavaScript, Open Source Software, and Vim.
-      </div>
+            <tr>
+              <th>Frameworks:</th>
+              <td>Ruby on Rails, Sinatra, Padrino, Vue/React, Express (Node.js)</td>
+            </tr>
 
-      <div class="divider"></div>
+            <tr>
+              <th>Infrastructure:</th>
+              <td>Heroku, Docker, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.</td>
+            </tr>
 
-      <table>
-        <tr>
-          <th>
-            Languages:
-          </th>
-          <td>
-            Ruby, JavaScript, CoffeeScript
-          </td>
-        </tr>
+            <tr>
+              <th>Other skills:</th>
+              <td>Rubygems development, Microservices, REST API development</td>
+            </tr>
 
-        <tr>
-          <th>
-            Frameworks:
-          </th>
-          <td>
-            Ruby on Rails, Sinatra, Padrino, Vue/React, Express (Node.js)
-          </td>
-        </tr>
+            <tr>
+              <th>Rails contributions:</th>
+              <td>
+                <a class="mechanicles-link" href="http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits" target="_blank">
+                  http://contributors.rubyonrails.org/contributors/santosh-wadghule/commit
+                </a>
+              </td>
+            </tr>
 
-        <tr>
-          <th>
-            Infrastructure:
-          </th>
-          <td>
-            Docker, Heroku, AWS, Apache, Nginx, Passenger, Unicorn, Puma, etc.
-          </td>
-        </tr>
+            <tr>
+              <th>Talks:</th>
+              <td>
+                <a class="mechanicles-link" href="https://goo.gl/e40Tk3" target="_blank">
+                  Aila!.. Caching in Rails
+                </a>,
+                <a class="mechanicles-link" href="https://goo.gl/1NFCsS" target="_blank">
+                  Rails Request & Middlewares
+                </a>,
+                <a class="mechanicles-link" href="https://www.slideshare.net/mechanicles/es6-features-rails" target="_blank">
+                  ES6: Features + Rails
+                </a>
+              </td>
+            </tr>
 
-        <tr>
-          <th>
-            Other skills:
-          </th>
-          <td>
-            Rubygems development, Microservices, REST API development
-          </td>
-        </tr>
-
-        <tr>
-          <th>
-            Rails contributions:
-          </th>
-          <td>
-            <a class="mechanicles-link" href="http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits" target="_blank">
-              http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits
-            </a>
-          </td>
-        </tr>
-
-        <tr>
-          <th>
-            Talks:
-          </th>
-          <td>
-            <a class="mechanicles-link" href="https://goo.gl/e40Tk3" target="_blank">
-              Aila!.. Caching in Rails
-            </a>,
-            <a class="mechanicles-link" href="https://goo.gl/1NFCsS" target="_blank">
-              Rails Request & Middlewares
-            </a>,
-            <a class="mechanicles-link" href="https://www.slideshare.net/mechanicles/es6-features-rails" target="_blank">
-              ES6: Features + Rails
-            </a>
-          </td>
-        </tr>
-
-        <tr>
-          <th>
-            Activities:
-          </th>
-          <td>
-            Coding, Reading, Food photography, and Fun 😀
-          </td>
-        </tr>
-        <tr>
-          <th>
-            Companies:
-          </th>
-          <td>
-            Bit Zesty, AgentBright, Autobrain, SkyMD, BigBinary, Idyllic Software, and other.
-          </td>
-        </tr>
-      </table>
-    </fieldset>
-
-    <div class="divider"></div>
-
-    <h4><a href="/">&larr;</a></h4>
-
-    <%= erb :footer, { current_year: @current_year } %>
+            <tr>
+              <th>Activities:</th>
+              <td>Coding, Reading, Food photography, and Fun 😀</td>
+            </tr>
+            <tr>
+              <th>Companies:</th>
+              <td>Bit Zesty, AgentBright, Autobrain, SkyMD, BigBinary, Idyllic Software, and other.</td>
+            </tr>
+          </table>
+        </fieldset>
+      </main>
+      <%= erb :footer, { current_year: @current_year } %>
+    </div>
   </body>
 </html>

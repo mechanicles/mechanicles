@@ -1,32 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <%= erb :head %>
   </head>
-  <body>
-    <%= erb :profile_image %>
+  <body class="text-center" style="">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <%= erb :header %>
 
-    <div class="divider"></div>
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Hi, I'm Santosh!</h1>
+        <h3 class="cover-heading">A Remote Ruby on Rails Consultant</h3>
+        <p class="lead">
+          I am a full-stack developer and have almost <%= @total_experience.humanize %> years of professional
+          experience in a wide variety of business areas. I love Ruby, JavaScript, Open Source
+          Software, and Vim.
+        </p>
+        <p class="lead">
+          <a href="/profile" class="btn btn-lg btn-secondary">My profile</a></a>
+        </p>
+      </main>
 
-    <%= erb :logo %>
-
-    <div id="contact">
-      <h4>
-        A Remote Ruby on Rails Consultant
-      </h4>
+      <%= erb :footer, { current_year: @current_year } %>
     </div>
-
-    <div class="divider"></div>
-
-    <div class="highlight">
-      Hire me for Ruby on Rails specific problems, architecture, application design,
-      optimizations, <br />performance, code reviews, team mentoring, and rescue missions.
-    </div>
-
-    <div class="divider"></div>
-
-    <h4><a href="/profile" id="about-me">My profile &rarr;</a></h4>
-
-    <%= erb :footer, { current_year: @current_year } %>
   </body>
 </html>
