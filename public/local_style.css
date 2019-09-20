@@ -1,5 +1,10 @@
+html {
+  background-color: black;
+}
+
 body {
-  background: black;
+  background-color: black;
+  margin: 0px;
   font-family: 'Nunito', sans-serif;
   color: #D4D7D9;
 }
@@ -22,6 +27,11 @@ table td a:hover {
 
 legend {
   font-size: inherit;
+  padding: 3px 6px;
+  border: 1px dotted;
+  border-radius: 4px;
+  border-color: inherit;
+  color: inherit;
 }
 
 .masthead-brand a {
@@ -31,4 +41,9 @@ legend {
 
 .highlight {
   color: #ffbb33;
+}
+
+.footer a, .footer a:hover {
+  color: #D4D7D9;
+  text-decoration: none;
 }
