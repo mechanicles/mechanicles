@@ -1,0 +1,49 @@
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  color: #D4D7D9;
+}
+
+.cover-container {
+  max-width: 60em;
+}
+
+table th {
+  font-weight: inherit;
+}
+
+table td a {
+  color: red;
+}
+
+table td a:hover {
+  color: red;
+}
+
+legend {
+  font-size: inherit;
+  padding: 3px 6px;
+  border: 1px dotted;
+  border-radius: 4px;
+  border-color: inherit;
+  color: inherit;
+}
+
+.masthead-brand a {
+  color: #D4D7D9 ;
+  text-decoration: none;
+}
+
+.highlight {
+  color: #ffbb33;
+}
+
+.footer a, .footer a:hover {
+  color: #D4D7D9;
+  text-decoration: none;
+}
