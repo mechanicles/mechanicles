@@ -21,7 +21,7 @@ table td a {
   color: red;
 }
 
-table td a:hover {
+table td a:hover, table td a:visited {
   color: red;
 }
 
