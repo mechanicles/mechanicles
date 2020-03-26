@@ -1,20 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    humanize (2.1.1)
-    mustermann (1.0.3)
-    puma (3.12.4)
+    humanize (2.4.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.2)
+    puma (4.3.3)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-contrib (2.1.0)
       rack (~> 2.0)
-    rack-protection (2.0.5)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (2.0.5)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.5)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
-    tilt (2.0.9)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
