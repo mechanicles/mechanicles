@@ -4,12 +4,8 @@ class Mechanicles < Sinatra::Base
   set :root, File.dirname(__FILE__)
 
   before do
-    if ENV['RACK_ENV'] == 'production'
-      redirect request.url.sub('http', 'https') && return unless request.secure?
-    else
-      @current_year     = current_year
-      @total_experience = current_year - profession_starting_year
-    end
+    @current_year     = current_year
+    @total_experience = current_year - profession_starting_year
   end
 
   get '/' do
