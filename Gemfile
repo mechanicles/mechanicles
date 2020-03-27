@@ -13,3 +13,7 @@ gem 'rack-contrib'
 group :developement, :production do
   gem 'puma'
 end
+
+group :production do
+  gem 'rack-ssl-enforcer'
+end
