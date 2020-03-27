@@ -5,6 +5,7 @@ require 'bundler'
 
 Bundler.require
 
+require 'rack-ssl-enforcer' if production?
 require './mechanicles'
 
 use Rack::Deflater # Useful to compress the responses
