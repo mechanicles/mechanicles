@@ -10,6 +10,10 @@ gem 'humanize'
 
 gem 'rack-contrib'
 
+group :developement do
+  gem 'foreman'
+end
+
 group :developement, :production do
   gem 'puma'
 end
