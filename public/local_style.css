@@ -18,11 +18,11 @@ table th {
 }
 
 table td a {
-  color: red;
+  color: crimson;
 }
 
 table td a:hover, table td a:visited {
-  color: red;
+  color: crimson;
 }
 
 legend {
