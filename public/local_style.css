@@ -19,6 +19,7 @@ table th {
 
 table td a {
   color: crimson;
+  text-decoration: underline;
 }
 
 table td a:hover, table td a:visited {
@@ -40,7 +41,11 @@ legend {
 }
 
 .highlight {
-  color: #ffbb33;
+  color: #E5C454;
+}
+.highlight a {
+  color: #E5C454;
+  text-decoration: underline;
 }
 
 .footer a, .footer a:hover {
