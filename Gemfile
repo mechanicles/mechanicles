@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.5.0'
+ruby '3.1.3'
 
 gem 'sinatra'
 
