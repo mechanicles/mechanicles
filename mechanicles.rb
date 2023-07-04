@@ -9,13 +9,11 @@ class Mechanicles < Sinatra::Base
   end
 
   get '/' do
-    @current_action = 'home'
     erb :home
   end
 
   get '/profile' do
-    @current_action = 'profile'
-    erb :profile
+    erb :home
   end
 
   not_found do

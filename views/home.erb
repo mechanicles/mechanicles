@@ -3,24 +3,93 @@
   <head>
     <%= erb :head %>
   </head>
-  <body class="text-center" style="">
+  <body>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <%= erb :header %>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">👋 Hey, I'm Santosh!</h1>
-        <h3 class="cover-heading">A full stack Ruby on Rails developer</h3>
+      <main role="main" class="inner cover mt-5">
+        <h1 class="cover-heading">Hey, I'm Santosh!</h1>
+
         <%# <h5 class="highlight"> %>
         <%#   Currently, looking for a new oppportunity. Feel free to %>
         <%#   <a href="mailto:santosh.wadghule@gmail.com">contact me</a>. %>
         <%# </h5> %>
+
         <p class="lead">
+          A full stack Ruby on Rails developer
+        </p>
+
+        <p>
           I have <%= @total_experience.humanize %> years of professional
           experience in a wide variety of business areas.<br/>I love Ruby,
-          Elixir, JavaScript, Open Source Software, and Vim.
+          JavaScript, Open Source Software, and Vim.
         </p>
-        <p class="lead">
-          <a href="/profile" class="btn btn-lg btn-secondary">My profile</a></a>
+
+        <fieldset class="border rounded p-2 text-left">
+          <legend class="w-auto">What I am all about...</legend>
+          <table class="table table-borderless table-sm table-responsive" style="color:inherit;">
+            <tr>
+              <th>Languages:</th>
+              <td>Ruby, JavaScript, Elixir</td>
+            </tr>
+
+            <tr>
+              <th>Frameworks:</th>
+              <td>Ruby on Rails, Sinatra, Phoenix, Vue/React, Express (Node.js)</td>
+            </tr>
+
+            <tr>
+              <th>Infrastructure:</th>
+              <td>Heroku, Docker, AWS, Unicorn, Puma, Apache, Nginx, Passenger, etc</td>
+            </tr>
+
+            <tr>
+              <th>Other skills:</th>
+              <td>Rubygems development, Microservices, REST API development</td>
+            </tr>
+
+            <tr>
+              <th>Rails contributions:</th>
+              <td>
+                <a class="mechanicles-link" href="http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits" target="_blank">
+                  https://contributors.rubyonrails.org/contributors/santosh-wadghule/commits
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <th>My open source work:</th>
+              <td>
+                <a class="mechanicles-link" href="https://rubygems.org/profiles/mechanicles" target="_blank">Ruby gems</a>,
+                <a class="mechanicles-link" href="https://github.com/mechanicles/espn_cricinfo" target="_blank">Microservices using RabbitMQ & Rails</a>,
+                <a class="mechanicles-link" href="https://github.com/mechanicles/labelize-field" target="_blank">labelize-field (jQuery plugin)</a>,
+                <a class="mechanicles-link" href="https://github.com/mechanicles" target="_blank">etc</a>
+              </td>
+            </tr>
+
+            <tr>
+              <th>Talks:</th>
+              <td>
+                <a class="mechanicles-link" href="https://goo.gl/e40Tk3" target="_blank">Aila!.. Caching in Rails</a>,
+                <a class="mechanicles-link" href="https://goo.gl/1NFCsS" target="_blank">Rails Request & Middlewares</a>,
+                <a class="mechanicles-link" href="https://www.slideshare.net/mechanicles/es6-features-rails" target="_blank">ES6: Features + Rails</a>
+              </td>
+            </tr>
+
+            <tr>
+              <th>Activities:</th>
+              <td>Coding, Reading, Food photography, and Fun 😀</td>
+            </tr>
+            <tr>
+              <th>Companies:</th>
+              <td>Beema, Bit Zesty, AgentBright, Autobrain, SkyMD, BigBinary, Idyllic Software, and other</td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <p style='margin-top:16px;'>
+          Hire me for Ruby on Rails specific problems, architecture, application design,
+          optimizations, code reviews, performance, team mentoring, and rescue missions.
         </p>
       </main>
 
