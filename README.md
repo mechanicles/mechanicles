@@ -3,7 +3,7 @@
 A full-stack Ruby developer based out of Pune, India. Love Ruby, JavaScript, 
 Open Source Software and Vim.
 
-I have ten years of professional experience in a wide variety of business areas.
+I have thirteen years of professional experience in a wide variety of business areas.
 Know more about me on [LinkedIn](https://www.linkedin.com/in/santosh-wadghule).
 
 You can find my Rails contributions 💎 [here](http://contributors.rubyonrails.org/contributors/santosh-wadghule/commits).
