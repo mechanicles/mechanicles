@@ -1,13 +1,14 @@
 html {
-  background-color: black;
+  background-color: var(--background-color);
   font-size: 18px;
 }
 
 body {
-  background-color: black;
+  background-color: var(--background-color);
   margin: 0px;
   font-family: 'Nunito', sans-serif;
-  color: #D4D7D9;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 .cover-container {
@@ -19,12 +20,17 @@ table th {
 }
 
 table td a {
-  color: crimson;
-  text-decoration: underline;
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 table td a:hover, table td a:visited {
-  color: crimson;
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+fieldset {
+  background-color: hsl(0deg 0% 95% / 50%);
 }
 
 legend {
@@ -33,23 +39,23 @@ legend {
   border: 1px dotted;
   border-radius: 4px;
   border-color: inherit;
-  color: inherit;
-}
-
-.masthead-brand a {
-  color: #D4D7D9 ;
-  text-decoration: none;
+  color: var(--pink-color);
+  background-color: hsl(0deg 0% 95% / 50%);
 }
 
 .highlight {
   color: #E5C454;
 }
+
 .highlight a {
   color: #E5C454;
   text-decoration: underline;
 }
 
-.footer a, .footer a:hover {
-  color: #D4D7D9;
-  text-decoration: none;
+.footer {
+  color: var(--main-color);
+}
+
+.border {
+  border: 1px solid var(--main-color) !important;
 }
