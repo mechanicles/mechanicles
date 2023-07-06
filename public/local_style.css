@@ -59,3 +59,13 @@ legend {
 .border {
   border: 1px solid var(--main-color) !important;
 }
+
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.link:hover, .link:focus {
+  color: var(--link-color);
+  text-decoration: underline;
+}

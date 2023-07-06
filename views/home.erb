@@ -3,26 +3,27 @@
   <head>
     <%= erb :head %>
   </head>
-  <body>
+  <body style="">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <%= erb :header %>
 
       <main role="main" class="inner cover mt-5">
         <h1 class="cover-heading">Hey, I'm Santosh!</h1>
 
-        <%# <h5 class="highlight"> %>
-        <%#   Currently, looking for a new oppportunity. Feel free to %>
-        <%#   <a href="mailto:santosh.wadghule@gmail.com">contact me</a>. %>
-        <%# </h5> %>
-
         <p class="lead">
-          A full stack Ruby on Rails developer
+          A full stack Ruby on Rails developer <!-- (<mark>Open for hire!</mark>) -->
         </p>
 
-        <p>
+        <p class="text-justify">
           I have <%= @total_experience.humanize %> years of professional
-          experience in a wide variety of business areas.<br/>I love Ruby,
-          JavaScript, Open Source Software, and Vim.
+          experience in a wide variety of business areas.
+          I love Ruby, JavaScript, Open Source Software, and Vim.
+        </p>
+
+        <p class="text-justify">
+          I offer expertise in Ruby on Rails, including problem-solving, architecture design,
+          application optimization, code reviews, performance enhancements, team mentoring,
+          and rescue missions. Consider hiring me for your specific needs in these areas.
         </p>
 
         <fieldset class="border rounded p-2 text-left mb-3">
@@ -87,9 +88,9 @@
           </table>
         </fieldset>
 
-        <p>
-          Hire me for Ruby on Rails specific problems, architecture, application design,
-          optimizations, code reviews, performance, team mentoring, and rescue missions.
+        <p class="text-justify">
+          Please feel free to reach out to me via email at <a href="mailto:santosh.wadghule@gmail.com" class="link">santosh.wadghule@gmail.com</a>
+          with a brief description of your project, and I will be happy to evaluate its potential.
         </p>
       </main>
 
