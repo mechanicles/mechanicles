@@ -4,6 +4,7 @@
   font-style: normal;
   font-weight: 100 1000;
   font-stretch: 0% 200%;
+  font-display: swap; /* <- this is the important part for SEO */
 }
 
 :root {
