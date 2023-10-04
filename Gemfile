@@ -4,20 +4,10 @@ source 'https://rubygems.org'
 
 ruby '3.1.3'
 
-gem 'sinatra'
+gem 'jekyll'
 
-gem 'humanize'
-
-gem 'rack-contrib'
+gem 'kramdown-parser-gfm'
 
 group :developement do
   gem 'foreman'
-end
-
-group :developement, :production do
-  gem 'puma'
-end
-
-group :production do
-  gem 'rack-ssl-enforcer'
 end
